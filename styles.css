@@ -118,7 +118,7 @@ body {
   background: rgb(128, 23, 23);
   display: flex;
   flex-direction: row;
-  margin-left: 3rem;
+  margin-right: 1rem;
 }
 .circle_2 {
   width: 25px;
@@ -129,7 +129,7 @@ body {
   background: rgb(28, 28, 104);
   display: flex;
   flex-direction: row;
-  margin-left: 3rem;
+  margin-right: 2rem;
 }
 .circle_3 {
   width: 25px;
@@ -151,7 +151,7 @@ body {
   background: rgb(100, 19, 100);
   display: flex;
   flex-direction: row;
-  margin-left: 3rem;
+  margin-right: 1rem;
 }
 .circle_5 {
   width: 25px;
@@ -162,7 +162,7 @@ body {
   background: rgb(28, 83, 28);
   display: flex;
   flex-direction: row;
-  margin-left: 3rem;
+  margin-right: 2rem;
 }
 .circle_6 {
   width: 25px;
@@ -332,17 +332,129 @@ body {
 .cuadricula_2 {
   width: 333px;
   height: 500px;
+  margin-left: 72px;
   flex-direction: column;
 }
 .cuadricula_3 {
+  margin-left: 90px;
   width: 333px;
   height: 500px;
   flex-direction: column;
 }
-.vertical_images {
-  width: 220px;
+.background-images {
+  border-radius: 0.4rem;
+  margin-top: 20px;
+}
+.background-image_1 {
+  background: rgb(24, 23, 23);
+  width: fit-content;
+  height: 630px;
+}
+.background-image_2 {
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    black,
+    cyan,
+    black,
+    blue
+  );
+  width: fit-content;
+  height: 520px;
+}
+.background-image_3 {
+  background: rgb(24, 23, 23);
+  width: fit-content;
+  height: 530px;
+}
+.background-image_4 {
+  background-image: linear-gradient(
+    to bottom right,
+    red,
+    gray,
+    orangered,
+    gray,
+    red
+  );
+  width: fit-content;
+  height: 650px;
+}
+.background-image_5 {
+  background: rgb(24, 23, 23);
+  width: fit-content;
+  height: 650px;
+}
+.background-image_6 {
+  background: rgb(24, 23, 23);
+  width: fit-content;
+  height: 700px;
+}
+.background-image_7 {
+  background: rgb(24, 23, 23);
+  width: fit-content;
+  height: 750px;
+}
+.background-image_8 {
+  background-image: linear-gradient(
+    to bottom right,
+    red,
+    orangered,
+    yellow,
+    green,
+    cyan,
+    purple,
+    pink
+  );
+  width: fit-content;
+  height: 400px;
+}
+.background-image_9 {
+  background: rgb(24, 23, 23);
+  width: fit-content;
+  height: 700px;
+}
+.image_1 {
+  margin-top: 35px;
+  width: 300px;
+  height: 500px;
+}
+.image_2 {
+  margin-top: 35px;
+  width: 300px;
+  height: 400px;
+}
+.image_3 {
+  margin-top: 35px;
+  width: 300px;
+  height: 400px;
+}
+.image_4 {
+  margin-top: 35px;
+  width: 300px;
+  height: 540px;
+}
+.image_5 {
+  margin-top: 35px;
+  width: 300px;
+  height: 520px;
+}
+.image_6 {
+  margin-top: 35px;
+  width: 300px;
+  height: 600px;
+}
+.image_7 {
+  margin-top: 35px;
+  width: 300px;
+  height: 650px;
+}
+.image_8 {
+  margin-top: 35px;
+  width: 300px;
   height: 300px;
-  margin-top: 7px;
-  border-radius: 0.5rem;
-  border: 2px solid blue;
+}
+.image_9 {
+  margin-top: 35px;
+  width: 300px;
+  height: 590px;
 }
