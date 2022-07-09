@@ -348,7 +348,7 @@ body {
 .background-image_1 {
   background: rgb(24, 23, 23);
   width: fit-content;
-  height: 630px;
+  height: 670px;
 }
 .background-image_2 {
   background-image: linear-gradient(
@@ -360,12 +360,12 @@ body {
     blue
   );
   width: fit-content;
-  height: 520px;
+  height: 580px;
 }
 .background-image_3 {
   background: rgb(24, 23, 23);
   width: fit-content;
-  height: 530px;
+  height: 570px;
 }
 .background-image_4 {
   background-image: linear-gradient(
@@ -377,22 +377,22 @@ body {
     red
   );
   width: fit-content;
-  height: 650px;
+  height: 700px;
 }
 .background-image_5 {
   background: rgb(24, 23, 23);
   width: fit-content;
-  height: 650px;
+  height: 690px;
 }
 .background-image_6 {
   background: rgb(24, 23, 23);
   width: fit-content;
-  height: 700px;
+  height: 780px;
 }
 .background-image_7 {
   background: rgb(24, 23, 23);
   width: fit-content;
-  height: 750px;
+  height: 820px;
 }
 .background-image_8 {
   background-image: linear-gradient(
@@ -406,55 +406,86 @@ body {
     pink
   );
   width: fit-content;
-  height: 400px;
+  height: 470px;
 }
 .background-image_9 {
   background: rgb(24, 23, 23);
   width: fit-content;
-  height: 700px;
+  height: 760px;
 }
 .image_1 {
-  margin-top: 35px;
+  margin-top: 20px;
   width: 300px;
   height: 500px;
 }
 .image_2 {
-  margin-top: 35px;
+  margin-top: 20px;
   width: 300px;
   height: 400px;
 }
 .image_3 {
-  margin-top: 35px;
+  margin-top: 20px;
   width: 300px;
   height: 400px;
 }
 .image_4 {
-  margin-top: 35px;
+  margin-top: 20px;
   width: 300px;
   height: 540px;
 }
 .image_5 {
-  margin-top: 35px;
+  margin-top: 25px;
   width: 300px;
   height: 520px;
 }
 .image_6 {
-  margin-top: 35px;
+  margin-top: 25px;
   width: 300px;
   height: 600px;
 }
 .image_7 {
-  margin-top: 35px;
+  margin-top: 20px;
   width: 300px;
   height: 650px;
 }
 .image_8 {
-  margin-top: 35px;
+  margin-top: 25px;
   width: 300px;
   height: 300px;
 }
 .image_9 {
-  margin-top: 35px;
+  margin-top: 25px;
   width: 300px;
   height: 590px;
+}
+.hashtags {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: fit-content;
+  color: rgb(175, 175, 175);
+  font-size: large;
+}
+.hashtags_gif {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #191919;
+  font-size: large;
+}
+.user_icons {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-radius: 0.5rem;
+}
+.user_name {
+  display: flex;
+  flex-direction: row;
+}
+.user-names {
+  color: white;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: bold;
 }
